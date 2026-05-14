@@ -32,7 +32,7 @@ W ramach projektu przetestowaliśmy i poddaliśmy optymalizacji hiperparametrów
 |---|---|
 | **Regresja Logistyczna** | Siła regularyzacji (C), typ kary (L1, L2), solver, selekcja cech (ANOVA K-Best). |
 | **Drzewa Decyzyjne** | Maksymalna głębokość drzewa, minimalna liczba próbek do podziału, kryterium podziału. |
-| **Naiwny Bayes** | [Uzupełnij: np. wygładzanie (var_smoothing dla GaussianNB)] |
+| **Naiwny Bayes** | |
 
 
 ---
