@@ -34,7 +34,6 @@ W ramach projektu przetestowaliśmy i poddaliśmy optymalizacji hiperparametrów
 | **Drzewa Decyzyjne** | Maksymalna głębokość drzewa, minimalna liczba próbek do podziału, kryterium podziału. |
 | **Naiwny Bayes** | [Uzupełnij: np. wygładzanie (var_smoothing dla GaussianNB)] |
 
-Zbudowaliśmy kompleksowy `Pipeline`, który automatyzuje kodowanie zmiennych kategorycznych (`OneHotEncoder`), skalowanie (`StandardScaler`) oraz wnioskowanie.
 
 ---
 
