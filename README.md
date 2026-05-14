@@ -42,7 +42,6 @@ W ramach projektu przetestowaliśmy i poddaliśmy optymalizacji hiperparametrów
 Do oceny modeli na etapie CV wykorzystaliśmy własną metrykę **(Custom Scorer)** implementującą logikę biznesową schroniska.
 
 * **Oczekiwana Liczba Adopcji (Priorytet):** Wartość obliczana dla top 20 predykcji wg wzoru: `(TP * 0.70) + (FP * 0.10)`. Model był optymalizowany w celu maksymalizacji tej wartości.
-* uzupełnić
 
 ---
 
@@ -61,11 +60,3 @@ Za trenowanie, optymalizację i ewaluację poszczególnych modeli odpowiedzialni
 * **Maciej Troć** — model naiwnego Bayesa
 
 ---
-
-## 🏆 Wyniki Końcowe
-
-*Poniższa tabela prezentuje wyniki osiągnięte przez modele na odłożonym zbiorze testowym.*
-
-| Model | Oczekiwane Adopcje (Baseline) | Oczekiwane Adopcje (Tuned) | ROC-AUC | Recall | Precision |
-|-------|:---:|:---:|:---:|:---:|:---:|
-| **Regresja Logistyczna** |
